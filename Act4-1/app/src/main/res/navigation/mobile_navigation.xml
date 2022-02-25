@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_Batman">
+
+    <fragment
+        android:id="@+id/nav_Batman"
+        android:name="com.example.act4_1.ui.batman.HomeFragment"
+        android:label="@string/Batman"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_Robin"
+        android:name="com.example.act4_1.ui.robin.RobinFragment"
+        android:label="@string/Robin"
+        tools:layout="@layout/fragment_robin" />
+
+    <fragment
+        android:id="@+id/nav_Alfred"
+        android:name="com.example.act4_1.ui.alfred.SlideshowFragment"
+        android:label="@string/Alfred"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>
