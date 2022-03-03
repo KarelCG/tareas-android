@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Evidencia1">
         <activity
+            android:name=".formulario_de_registro"
+            android:exported="false" />
+        <activity
+            android:name=".menu_principal"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.registro_cuenta"
+            android:exported="false"
+            android:label="@string/title_activity_registro_cuenta" />
+        <activity
+            android:name=".menu_desplegable"
+            android:exported="false"
+            android:label="@string/title_activity_menu_desplegable"
+            android:theme="@style/Theme.Evidencia1.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

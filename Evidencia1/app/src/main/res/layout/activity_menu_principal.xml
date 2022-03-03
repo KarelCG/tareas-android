@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    tools:context=".menu_principal">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF9800"
+            app:srcCompat="@android:drawable/ic_menu_sort_by_size" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="29dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¡Hola Alex!"
+            android:textSize="24sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="279dp"
+            android:layout_height="235dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="Te escucho..."
+            android:textColor="#39373E"
+            app:cornerRadius="30dip" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="268dp"
+            android:layout_height="227dp"
+            android:layout_gravity="right"
+            android:backgroundTint="#FFFFFF"
+            android:text="Platica conmigo..."
+            android:textColor="#39373E"
+            app:cornerRadius="30dip" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
