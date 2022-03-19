@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnsiguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Siguiente"
+        tools:layout_editor_absoluteX="282dp"
+        tools:layout_editor_absoluteY="682dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Batman"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/batman"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="378dp"
+        android:layout_height="136dp"
+        android:text="Dos años acechando las calles como Batman, infundiendo el miedo en los corazones de los criminales, han llevado a Bruce Wayne a lo más profundo de las sombras de Gotham City. Con solo unos pocos aliados de confianza -Alfred Pennyworth y el teniente James Gordon- entre la corrupta red de funcionarios y personajes de alto nivel de la ciudad, el solitario justiciero se ha establecido como la única encarnación de la venganza entre sus conciudadanos.  Cuando un asesino se dirige a la élite de Gotham con una serie de maquinaciones sádicas, un rastro de pistas crípticas envía al mejor detective del mundo a una investigación en los bajos fondos donde se encuentra con personajes como Selina Kyle/aka Catwoman, Oswald Cobblepot/aka el Pingüino, Carmine Falcone y Edward Nashton/aka Enigma. A medida que las pruebas comienzan a acercarse a su casa y se hace evidente la magnitud de los planes del autor, Batman debe forjar nuevas relaciones, desenmascarar al culpable y hacer justicia al abuso de poder y la corrupción que durante mucho tiempo han asolado Gotham City"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="531dp" />
+
+    <Button
+        android:id="@+id/btnregresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Regresar"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="682dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
