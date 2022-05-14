@@ -13,7 +13,7 @@ public class morbius extends AppCompatActivity {
         setContentView(R.layout.morbius);
     }
 
-    public void onClick(View view){
+    public void Regresar(View view){
         Intent miIntent=new Intent(morbius.this, batman.class);
         startActivity(miIntent);
     }

@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         if (!codigo.isEmpty() && !descripcion.isEmpty() && !precio.isEmpty()) {
             ContentValues registro = new ContentValues();
 
-            registro.put("codigo",  codigo);
+            registro.put("codigo", codigo);
             registro.put("descripcion", descripcion);
             registro.put("precio", precio);
 

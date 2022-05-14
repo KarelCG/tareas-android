@@ -43,7 +43,7 @@
             android:layout_height="31dp" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/txt_nombre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -56,7 +56,7 @@
             android:layout_height="44dp" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/txt_apellido"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -69,7 +69,7 @@
             android:layout_height="44dp" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName3"
+            android:id="@+id/txt_correo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -82,7 +82,7 @@
             android:layout_height="44dp" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName4"
+            android:id="@+id/txt_numero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -95,11 +95,12 @@
             android:layout_height="74dp" />
 
         <Button
-            android:id="@+id/button8"
+            android:id="@+id/Rs"
             android:layout_width="229dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:backgroundTint="#FF9800"
+            android:onClick="Registrar"
             android:text="Registrarme"
             app:cornerRadius="30dip" />
 
